@@ -30,9 +30,13 @@ body {
 
 
 .titleText {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 .cardInfoText {
-  font-size: 1vw;
+  font-size: 1.2vw;
+}
+
+.cardNameText {
+  font-size: 2vw;
 }
