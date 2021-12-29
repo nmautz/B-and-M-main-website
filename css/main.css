@@ -5,7 +5,25 @@ body {
 .center {
     text-align: center 
   }
+.rightAlign {
+    text-align: left;
+}
+.leftAlign {
+    text-align: right;
+}
 .websiteTitle {
     color: black;
     font-size: 70px;
 }
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
