@@ -27,3 +27,12 @@ body {
     clear: both;
     display: table;
   }
+
+
+.titleText {
+  font-size: 4vw;
+}
+
+.cardInfoText {
+  font-size: 1vw;
+}
