@@ -1,0 +1,19 @@
+.titleText {
+    font-size: 5vw;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .smallTitleText {
+      font-size: 3vw;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: bold;
+  }
+  .cardInfoText {
+    font-size: 1.2vw;
+  }
+  
+  .cardNameText {
+    font-size: 2vw;
+  }
+  .font {
+    font-family: 'Courier New', Courier, monospace;
+  }
