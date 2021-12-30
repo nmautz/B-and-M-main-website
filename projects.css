@@ -7,7 +7,14 @@ CSS file for projects.html
 
 .projectItem {
 
-    border-radius: 1vw;
-
-
+    border-radius: 5vw;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vw;
+    padding-left: 3vw;
+    border-color: black;
+    border-width: 1vw;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    
 }
