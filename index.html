@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
     <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="nav.css" />
     <link rel="stylesheet" type="text/css" href="text.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="about.html">About & Contact</a>
-      </div>
+
     <head>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+                <!--Navigation bar-->
+                <div id="nav-placeholder">
+
+                </div>
+        
+                <script>
+                $(function(){
+                $("#nav-placeholder").load("nav.html");
+                });
+                </script>
+                <!--end of Navigation bar-->
         <p>
             <div class="center websiteTitle" style="padding-top: 10vw;">
                 <p class="titleText">The B&M Project</p>     
