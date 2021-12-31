@@ -17,3 +17,8 @@
   .font {
     font-family: 'Courier New', Courier, monospace;
   }
+  .authorText {
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+
+  }
