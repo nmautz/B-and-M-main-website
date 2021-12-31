@@ -4,6 +4,9 @@
     <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" type="text/css" href="text.css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="ContactForm.css">
+    <link rel="stylesheet" href="text.css">
+    <script src="ContactForm.js"></script>
 
     <div class="topnav">
         <a href="index.html">Home</a>
@@ -22,8 +25,9 @@
 
 
     <body>
+        <div>
 
-        <div class = "font" style="font-weight: bold; font-size: 2.5vw;  text-indent: 4vw;">
+        <div class = "font" style= "font-weight: bold; font-size: 2.5vw;  text-indent: 4vw;">
             The Project
         </div>
         <div style=" padding-left: 4vw; padding-right: 4vw;text-indent: 2vw; padding-top: 1vw;">
@@ -32,6 +36,7 @@
             student submitted projects can be in any programming language and format.
 
         </div>
+
         <div style="padding: 4vw;">
             <div class="smallTitleText" style="padding-bottom: 1vw; font-size: 2.5vw;">
                 The Founders
@@ -49,11 +54,7 @@
                 <div style="font-weight: bold;">About</div> 
                 - Current student at Gonzaga University pursuing a Major in Management Information Systems and Minor in Computer Science. Originally from Sammamish, Washington.
                 <br><br>
-                <div style="font-weight: bold;">Contact Information</div> 
-                
-                - <a href="https://www.linkedin.com/in/ben-berton/" style="color: blue;">LinkedIn</a>
-                <br> - Email: bberton@zagmail.gonzaga.edu
-                <br> - Cell: 425-615-4404
+
             </div>
 
             <div class="w3-card" style="width:20%; float: left;" id="wrapperDiv">
@@ -70,18 +71,33 @@
                 <div style="font-weight: bold;">About</div> 
                 - Current student at Gonzaga University pursuing a Major in Computer Science. Originally from Sammamish, Washington.
                 <br><br>
-                <div style="font-weight: bold;">Contact Information</div>               
-                <!-- - <a href="https://www.linkedin.com/in/ben-berton/" style="color: blue;">LinkedIn</a> -->
-                 - Email: nmautz@zagmail.gonzaga.edu
-                <br> - Cell: 425-299-8171
+
             </div>
         </div>
+    </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class = "center size" style="float: none;">
+            <h3 class="font" style="font-weight: bold; font-size: 2vw;">Contact Form</h3>
+    
+                <div class="container">
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="text">Email</label>
+                    <input type="text" id="email" name="theiremail" placeholder="Your Email.." >
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <button class = "button" type="button">Submit</button>
+                </form>
+                </div>
+            </div>
 
-</div>
-        
-    <p>
-        <h1></h1>
-    </p> 
 
 
     </body>
