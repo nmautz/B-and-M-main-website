@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+    <script src="https://smtpjs.com/v3/smtp.js"></script> 
+    <script src="index.js"></script> 
     <link rel="stylesheet" type="text/css" href="nav.css" />
     <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" type="text/css" href="text.css" />
@@ -80,7 +82,7 @@
             <h3 class="font" style="font-weight: bold; font-size: 2vw;">Contact Form</h3>
     
                 <div class="container">
-                <form action="/action_page.php">
+                <form method="post" action="/action_page.php">
                     <label for="fname">First Name</label>
                     <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 
@@ -93,7 +95,7 @@
                     <label for="subject">Subject</label>
                     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                 
-                    <button class = "button" type="button">Submit</button>
+                    <button class = "button" type="button" onclick="sendEmail()">Submit</button>
                 </form>
                 </div>
             </div>
