@@ -2,14 +2,20 @@
 <html>
     <link rel="stylesheet" type="text/css" href="main.css" />
     <link rel="stylesheet" type="text/css" href="text.css" />
-    <link rel="stylesheet" type="text/css" href="nav.css" />
     <link rel="stylesheet" type="text/css" href="projects.css" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <div class="topnav">
-        <a href="index.html">Home</a>
-        <a class="active" href="projects.html">Projects</a>
-        <a href="about.html">About & Contact</a>
-      </div>
+    <!--Navigation bar-->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+    <!--end of Navigation bar-->
     <head>
         <p>
             <div class="center websiteTitle">
@@ -26,7 +32,7 @@
         <div> <!--Holds the list of projects-->
             <div class="projectItem" style="align-self:center">
 
-                <p style="font-weight: bold;">Command Line Chess<br></p>
+                <a href="projectChess.html" style="font-weight: bold;">Command Line Chess</a>
                 
                 <p>A simple chess program created for the 2021 Gonzaga Hackathon</p>
 
